@@ -1,9 +1,8 @@
-import images from './images';
-import icons from './icons';
+import { Images,Icons } from "../themes";
 
 const myProfile = {
   name: 'ByProgrammers',
-  profile_image: require('../assets/images/profile.png'),
+  profile_image: require('../themes/images/profile.png'),
   address: 'No. 88, Jln Padungan, Kuching',
 };
 
@@ -11,17 +10,17 @@ const categories = [
   {
     id: 1,
     name: 'Fast Food',
-    icon: require('../assets/icons/burger.png'),
+    icon: require('../themes/icons/burger.png'),
   },
   {
     id: 2,
     name: 'Fruit Item',
-    icon: require('../assets/icons/cherry.png'),
+    icon: require('../themes/icons/cherry.png'),
   },
   {
     id: 3,
     name: 'Rice Item',
-    icon: require('../assets/icons/rice.png'),
+    icon: require('../themes/icons/rice.png'),
   },
 ];
 
@@ -38,7 +37,7 @@ const menu = [
     delivery_time: '10 Mins',
     distance: 4,
     pricing: 15,
-    image: require('../assets/images/hamburger.png'),
+    image: require('../themes/images/hamburger.png'),
   },
 
   {
@@ -53,7 +52,7 @@ const menu = [
     delivery_time: '30 Mins',
     distance: 15,
     pricing: 10,
-    image: require('../assets/images/hot_tacos.png'),
+    image: require('../themes/images/hot_tacos.png'),
   },
 
   {
@@ -68,7 +67,7 @@ const menu = [
     delivery_time: '10 Mins',
     distance: 10,
     pricing: 10,
-    image: require('../assets/images/veg_biryani.png'),
+    image: require('../themes/images/veg_biryani.png'),
   },
 
   {
@@ -83,7 +82,7 @@ const menu = [
     delivery_time: '30 Mins',
     distance: 15,
     pricing: 10,
-    image: require('../assets/images/wrap_sandwich.png'),
+    image: require('../themes/images/wrap_sandwich.png'),
   },
   {
     id: 5,
@@ -97,7 +96,7 @@ const menu = [
     delivery_time: '20 Mins',
     distance: 15,
     pricing: 20,
-    image: require('../assets/images/hamburger.png'),
+    image: require('../themes/images/hamburger.png'),
   },
 
   {
@@ -112,7 +111,7 @@ const menu = [
     delivery_time: '20 Mins',
     distance: 15,
     pricing: 20,
-    image: require('../assets/images/hot_tacos.png'),
+    image: require('../themes/images/hot_tacos.png'),
   },
   {
     id: 7,
@@ -126,7 +125,7 @@ const menu = [
     delivery_time: '20 Mins',
     distance: 20,
     pricing: 20,
-    image: require('../assets/images/veg_biryani.png'),
+    image: require('../themes/images/veg_biryani.png'),
   },
   {
     id: 8,
@@ -140,7 +139,7 @@ const menu = [
     delivery_time: '20 Mins',
     distance: 20,
     pricing: 20,
-    image: require('../assets/images/wrap_sandwich.png'),
+    image: require('../themes/images/wrap_sandwich.png'),
   },
   {
     id: 9,
@@ -154,7 +153,7 @@ const menu = [
     delivery_time: '10 Mins',
     distance: 10,
     pricing: 10,
-    image: icons.rice,
+    image: Icons.rice,
   },
   {
     id: 10,
@@ -168,7 +167,7 @@ const menu = [
     delivery_time: '10 Mins',
     distance: 10,
     pricing: 10,
-    image: icons.cherry,
+    image: Icons.cherry,
   },
 ];
 
@@ -180,7 +179,7 @@ const hamburger = {
   price: '$15.99',
   calories: 78,
   isFavourite: true,
-  image: require('../assets/images/hamburger.png'),
+  image: require('../themes/images/hamburger.png'),
 };
 
 const hotTacos = {
@@ -191,7 +190,7 @@ const hotTacos = {
   price: '$10.99',
   calories: 78,
   isFavourite: false,
-  image: require('../assets/images/hot_tacos.png'),
+  image: require('../themes/images/hot_tacos.png'),
 };
 
 const vegBiryani = {
@@ -203,7 +202,7 @@ const vegBiryani = {
   price: '$10.99',
   calories: 78,
   isFavourite: true,
-  image: require('../assets/images/veg_biryani.png'),
+  image: require('../themes/images/veg_biryani.png'),
 };
 
 const wrapSandwich = {
@@ -214,7 +213,7 @@ const wrapSandwich = {
   price: '$10.99',
   calories: 78,
   isFavourite: true,
-  image: require('../assets/images/wrap_sandwich.png'),
+  image: require('../themes/images/wrap_sandwich.png'),
 };
 
 const sizes = [
@@ -255,13 +254,13 @@ const myCards = [
   {
     id: 1,
     name: 'Master Card',
-    icon: require('../assets/icons/mastercard.png'),
+    icon: require('../themes/icons/mastercard.png'),
     card_no: '1234',
   },
   {
     id: 2,
     name: 'Google Pay',
-    icon: require('../assets/icons/google.png'),
+    icon: require('../themes/icons/google.png'),
     card_no: '1234',
   },
 ];
@@ -270,31 +269,31 @@ const allCards = [
   {
     id: 3,
     name: 'Apple Pay',
-    icon: require('../assets/icons/apple.png'),
+    icon: require('../themes/icons/apple.png'),
     card_no: '1234',
   },
   {
     id: 4,
     name: 'Visa',
-    icon: require('../assets/icons/visa.png'),
+    icon: require('../themes/icons/visa.png'),
     card_no: '1234',
   },
   {
     id: 5,
     name: 'PayPal',
-    icon: require('../assets/icons/paypal.png'),
+    icon: require('../themes/icons/paypal.png'),
     card_no: '1234',
   },
   {
     id: 6,
     name: 'Google Pay',
-    icon: require('../assets/icons/google.png'),
+    icon: require('../themes/icons/google.png'),
     card_no: '1234',
   },
   {
     id: 7,
     name: 'Master Card',
-    icon: require('../assets/icons/mastercard.png'),
+    icon: require('../themes/icons/mastercard.png'),
     card_no: '1234',
   },
 ];
@@ -304,14 +303,14 @@ const Notification_Tab = [
     title: 'Today',
     data: [
       {
-        icon: icons.dominos,
+        icon: Icons.dominos,
         name: "Domino's - Buy 1 get 1 free",
         description: 'Buy 1 get 1 free for small sizes',
         untilText: 'until Nov 30, 2021',
         time: 'a few seconds ago',
       },
       {
-        icon: images.veg_biryani,
+        icon: Images.veg_biryani,
         name: 'Veg Biryani - 35% sale today',
         description: 'Buy 1 get 1 free for small sizes',
         untilText: 'until Nov 30, 2021',
@@ -323,14 +322,14 @@ const Notification_Tab = [
     title: 'Yesterday',
     data: [
       {
-        icon: icons.dominos,
+        icon: Icons.dominos,
         name: "Domino's - Buy 1 get 1 free",
         description: 'Buy 1 get 1 free for small sizes',
         untilText: 'until Nov 30, 2021',
         time: '1 day ago',
       },
       {
-        icon: images.veg_biryani,
+        icon: Images.veg_biryani,
         name: 'Veg Biryani - 35% sale today',
         description: 'Buy 1 get 1 free for small sizes',
         untilText: 'until Nov 30, 2021',
@@ -344,68 +343,68 @@ const drawer = [
   {
     name: 'Home',
     navigation: 'Home',
-    icon: icons.home,
+    icon: Icons.home,
   },
   {
     name: 'My Order',
     navigation: 'MyOrders',
-    icon: icons.orders,
+    icon: Icons.orders,
   },
   {
     name: 'My Wallet',
     navigation: '',
-    icon: icons.wallet,
+    icon: Icons.wallet,
   },
   {
     name: 'Notification',
     navigation: 'Notification',
-    icon: icons.notification,
+    icon: Icons.notification,
   },
   {
     name: 'Favourite',
     navigation: '',
-    icon: icons.favourite,
+    icon: Icons.favourite,
   },
   {
     name: 'Track Your Order',
     navigation: 'Delivery',
-    icon: icons.location,
+    icon: Icons.location,
   },
   {
     name: 'Coupons',
     navigation: 'Coupon',
-    icon: icons.coupon,
+    icon: Icons.coupon,
   },
   {
     name: 'Settings',
     navigation: 'Settings',
-    icon: icons.setting,
+    icon: Icons.setting,
   },
   {
     name: 'Invite a Friend',
     navigation: '',
-    icon: icons.profile,
+    icon: Icons.profile,
   },
   {
     name: 'Help Center',
     navigation: '',
-    icon: icons.help,
+    icon: Icons.help,
   },
   {
     name: 'Logout',
     navigation: '',
-    icon: icons.logout,
+    icon: Icons.logout,
   },
 ];
 
 const Notification = [
   {
-    icon: icons.notification,
+    icon: Icons.notification,
     name: 'Notifications',
     description: 'You will receive daily updates',
   },
   {
-    icon: icons.notification,
+    icon: Icons.notification,
     name: 'Promotional Notifications',
     description: 'You will receive daily updates',
   },
@@ -416,31 +415,31 @@ const available_coupon = [
     name: 'Burgur King',
     discount: '20%',
     valid: 'Valid until 01 Jan 2022',
-    icon: icons.burgur_king,
+    icon: Icons.burgur_king,
   },
   {
     name: 'KFC',
     discount: '10%',
     valid: 'Valid until 01 Jan 2022',
-    icon: icons.kfc,
+    icon: Icons.kfc,
   },
   {
     name: 'Pizza Hut',
     discount: '35%',
     valid: 'Valid until 01 Feb 2022',
-    icon: icons.pizza_hut,
+    icon: Icons.pizza_hut,
   },
   {
     name: 'Starbucks',
     discount: '15%',
     valid: 'Valid until 01 Feb 2022',
-    icon: icons.starbucks,
+    icon: Icons.starbucks,
   },
   {
     name: 'Domino’s Pizza',
     discount: '30%',
     valid: 'Valid until 01 Feb 2022',
-    icon: icons.dominos,
+    icon: Icons.dominos,
   },
 ];
 
@@ -449,13 +448,13 @@ const used_coupon = [
     name: 'Burgur King',
     discount: '20%',
     valid: 'Valid until 01 Jan 2022',
-    icon: icons.burgur_king,
+    icon: Icons.burgur_king,
   },
   {
     name: 'Starbucks',
     discount: '15%',
     valid: 'Valid until 01 Feb 2022',
-    icon: icons.starbucks,
+    icon: Icons.starbucks,
   },
 ];
 
@@ -464,61 +463,61 @@ const settings = [
     id: 1,
     name: 'Change Password',
     navigate: 'ChangePassword',
-    icon: icons.lock,
+    icon: Icons.lock,
   },
   {
     id: 2,
     name: 'Preferences',
     navigate: '',
-    icon: icons.filter,
+    icon: Icons.filter,
   },
   {
     id: 3,
     name: 'Notifications',
     navigate: 'Notification',
-    icon: icons.notification,
+    icon: Icons.notification,
   },
   {
     id: 4,
     name: 'Data use',
     navigate: '',
-    icon: icons.data_use,
+    icon: Icons.data_use,
   },
   {
     id: 5,
     name: 'Language',
     navigate: '',
-    icon: icons.globe,
+    icon: Icons.globe,
   },
   {
     id: 6,
     name: 'Check Update',
     navigate: '',
-    icon: icons.check_update,
+    icon: Icons.check_update,
   },
   {
     id: 7,
     name: 'Contact Us',
     navigate: '',
-    icon: icons.call,
+    icon: Icons.call,
   },
   {
     id: 8,
     name: 'Privacy Policy',
     navigate: '',
-    icon: icons.privacy,
+    icon: Icons.privacy,
   },
   {
     id: 9,
     name: 'Terms & Conditions',
     navigate: '',
-    icon: icons.terms,
+    icon: Icons.terms,
   },
   {
     id: 10,
     name: 'Logout',
     navigate: '',
-    icon: icons.logout,
+    icon: Icons.logout,
   },
 ];
 
@@ -527,7 +526,7 @@ const My_Order_History = [
     title: '19 Sep 2021',
     data: [
       {
-        icon: icons.pizza_hut,
+        icon: Icons.pizza_hut,
         name: 'Pizza Hut',
         date_time: '19 Sep, 14:30',
         items: '3 Items',
@@ -535,7 +534,7 @@ const My_Order_History = [
         price: '$35.30',
       },
       {
-        icon: icons.kfc,
+        icon: Icons.kfc,
         name: 'KFC',
         date_time: '19 Sep, 12:30',
         items: '4 Items',
@@ -543,7 +542,7 @@ const My_Order_History = [
         price: '$55.00',
       },
       {
-        icon: icons.dominos,
+        icon: Icons.dominos,
         name: 'Domino’s Pizza',
         date_time: '19 Sep, 10:30',
         items: '1 Items',
@@ -556,7 +555,7 @@ const My_Order_History = [
     title: '15 Sept 2021',
     data: [
       {
-        icon: icons.starbucks,
+        icon: Icons.starbucks,
         name: 'Starbucks',
         date_time: '15 Sep, 10:00',
         items: '4 Items',
@@ -564,7 +563,7 @@ const My_Order_History = [
         price: '$40.00',
       },
       {
-        icon: icons.burgur_king,
+        icon: Icons.burgur_king,
         name: 'Burking King',
         date_time: '19 Sep, 14:30',
         items: '3 Items',
@@ -572,7 +571,7 @@ const My_Order_History = [
         price: '$55.00',
       },
       {
-        icon: icons.McDonald,
+        icon: Icons.McDonald,
         name: 'McDonald',
         date_time: '19 Sep, 12:30',
         items: '1 Items',
@@ -588,7 +587,7 @@ const My_Order_Upcoming = [
     title: '',
     data: [
       {
-        icon: icons.starbucks,
+        icon: Icons.starbucks,
         name: 'Starbucks',
         date_time: '27 Sep, 10:00',
         items: '4 Items',
@@ -596,7 +595,7 @@ const My_Order_Upcoming = [
         price: '#88888',
       },
       {
-        icon: icons.McDonald,
+        icon: Icons.McDonald,
         name: 'McDonald',
         date_time: '27 Sep, 10:00',
         items: '4 Items',
@@ -609,7 +608,7 @@ const My_Order_Upcoming = [
     title: 'Latest Orders',
     data: [
       {
-        icon: icons.starbucks,
+        icon: Icons.starbucks,
         name: 'Starbucks',
         date_time: '27 Sep, 10:00',
         items: '4 Items',
@@ -617,7 +616,7 @@ const My_Order_Upcoming = [
         price: '$10.00',
       },
       {
-        icon: icons.burgur_king,
+        icon: Icons.burgur_king,
         name: 'Burking King',
         date_time: '27 Sep, 8:00',
         items: '4 Items',
